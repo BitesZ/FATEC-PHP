@@ -1,0 +1,79 @@
+/*Login*/
+
+.loginBox{
+        width: 30%;
+        height: 70%;
+        padding: 70px;
+        background-color: rgb(192, 223, 233);
+        border-radius: 10px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        border: 5px black;
+        border-style: solid;
+}
+
+.labelStyle {
+        font-size: 30px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: rgb(95, 95, 95);
+}
+
+.textBox{
+    font-size:24px;
+    width: 100%;
+}
+
+.btnStyle{
+        border-radius: 5px;
+        width: 100px;
+        height: 30px;
+        background-color: #4FFF85;
+        cursor: pointer;
+}
+
+.checkRemember {
+        font-size: 25px;
+        font-family:Arial, Helvetica, sans-serif;
+        cursor: pointer;
+}
+.checkbox {
+        width: 20px;
+        height: 20px;
+}
+
+.footer-text{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: gray;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+}
+
+.siteName {
+        position: relative;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+}
+
+.dateHour{
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        position: absolute;
+        top: 0;
+}
+
+.errorLogin{
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif;
+        color: red;
+        bottom: 0px;
+        position: absolute;
+}

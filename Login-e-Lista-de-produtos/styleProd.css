@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product{
+    width: 20%;
+    padding: 20px;
+    background-color: rgb(192, 223, 233);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product .nome{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product .descricao{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product .preco{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15;
+}
+
+.imagem{
+    width: 100%;
+}
